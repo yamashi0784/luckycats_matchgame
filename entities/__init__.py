@@ -1,0 +1,1 @@
+from .luckycats import LuckyCats
