@@ -19,7 +19,7 @@ class TitleScene:
     def update(self):
         if pyxel.btnp(pyxel.KEY_RETURN) or pyxel.btnp(
             pyxel.GAMEPAD1_BUTTON_B
-        ):  # EnterキーまたはゲームパッドのBボタンが押された時
+        ) or pyxel.btnp(pyxel.MOUSE_BUTTON_LEFT):  # EnterキーまたはゲームパッドのBボタンが押された時
             # 画面の透明度を不透明にする
             #pyxel.dither(1.0)
 
