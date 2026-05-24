@@ -50,8 +50,10 @@ class TitleScene:
                         self.game.cats[(i*10)+j].draw_face(j*24+self.dx+8,i*24+8)
         if abs(self.dx) >= 248:
             self.dx = 0
-        
         pyxel.rect(0,0,28,255,7)
         pyxel.rect(224,0,32,255,7)
-        pyxel.rect(98,127,62,8,7)
-        pyxel.text(100, 129, "PRESS ENTER KEY", 16)
+        pyxel.blt(60,50,2,0,0,135,87,0)
+        pyxel.rect(108,148,43,8,7)
+        pyxel.text(110, 150, "MATCH GAME", 16)
+        pyxel.rect(98,158,62,8,7)
+        pyxel.text(100, 160, "PRESS ENTER KEY", 16)
